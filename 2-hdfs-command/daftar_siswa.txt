@@ -1,0 +1,6 @@
+no|nama|kelas
+1|Ahmad|X-A
+2|Budi|X-A
+3|Citra|X-B
+4|Dodi|X-C
+5|Endah|X-C
