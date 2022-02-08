@@ -90,8 +90,6 @@ services:
   spark-worker:
     image: bde2020/spark-worker:2.4.0-hadoop2.7
     container_name: spark-worker
-    depends_on:
-      - spark-master
     environment:
       - SPARK_MASTER=spark://spark-master:7077
       - CORE_CONF_fs_defaultFS=hdfs://namenode:8020
